@@ -28,7 +28,7 @@ Scenario: Login User with correct email and password
 Given that you Launch browser and Navigate to url http://automationexercise.com
 When you Click on Signup / Login button
 And Enter signUp name and email address as:
-		| Name   | SignUp Email address          |
+		| Name   | SignUp Email address   |
 		| Bisola | MummyAqeelah@gmail.com |
 And Click Signup button
 And select 'Mrs.' from the title option
