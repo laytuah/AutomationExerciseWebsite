@@ -24,7 +24,7 @@ Then Verify that 'ACCOUNT DELETED!' is visible and click Continue button
 
 
 Scenario: Login User with correct email and password
-		#Pre-requisite:A valid user must be created
+		##Pre-requisite:A valid user must be created
 Given that you Launch browser and Navigate to url http://automationexercise.com
 When you Click on Signup / Login button
 And Enter signUp name and email address as:
