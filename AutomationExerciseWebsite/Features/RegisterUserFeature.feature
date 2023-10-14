@@ -1,5 +1,6 @@
 ﻿Feature: RegisterUserFeature
 
+#
 Scenario: Register a user then delete
 Given that you Launch browser and Navigate to url http://automationexercise.com
 When you Click on Signup / Login button
@@ -17,7 +18,7 @@ And Fill details as below: First name, Last name, Company, Address, Address2, Co
 		| Bisola     | Tiamiyu   | XYZ Limited | 16, Kajola | Irede street | Oyo   | Ibadan | 200242  | +2348079226500 |
 And select 'Australia' from the country dropdown
 And Click Create Account button
-Then Verify that 'ACCOUNT CREATED!' is visible
+Then Verify that 'ACCOUNT CREATED!' is visible 
 When Click Continue button
 When Click Delete Account button
 Then Verify that 'ACCOUNT DELETED!' is visible and click Continue button
