@@ -1,6 +1,5 @@
 ﻿Feature: RegisterUserFeature
 
-#
 Scenario: Register a user then delete
 Given that you Launch browser and Navigate to url http://automationexercise.com
 When you Click on Signup / Login button
